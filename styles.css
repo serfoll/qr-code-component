@@ -1,1 +1,89 @@
 /** @format */
+:root {
+  --salte-900: #1f314f;
+  --salte-500: #68778d;
+  --salte-300: #d5e1ef;
+  --spacing-500: 40px;
+  --spacing-300: 24px;
+  --spacing-200: 16px;
+}
+
+* {
+  border: 0;
+  box-sizing: border-box;
+  color: black;
+  font: inherit;
+  letter-spacing: 0;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  vertical-align: baseline;
+}
+
+body {
+  background-color: var(--salte-300);
+  color: var(--salte-900);
+  font-size: 16px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  line-height: 1;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  height: 95vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  max-height: 499px;
+  padding: var(--spacing-200);
+  padding-bottom: var(--spacing-500);
+  max-width: 320px;
+}
+
+.card img {
+  display: block;
+  border-radius: 10px;
+  margin-bottom: var(--spacing-300);
+  width: 288px;
+}
+
+.card .details {
+  padding: 0 var(--spacing-200);
+  text-align: center;
+}
+
+.details h1 {
+  color: var(--salte-900);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: var(--spacing-200);
+}
+
+.details p {
+  color: var(--salte-500);
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+}
+
+.attribution a,
+.attribution a:visited {
+  color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover,
+.attribution:focus {
+  color: var(--salte-500);
+}
