@@ -59,4 +59,4 @@ Mobile
 ## Author
 
 - Frontend Mentor - [@serfoll](https://www.frontendmentor.io/profile/serfoll)
-- Twitter - [@sergio_fol](https://www.twitter.com/sergio_fol)
+- X - [@sergio_fol](https://www.twitter.com/sergio_fol)
