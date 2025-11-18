@@ -48,13 +48,17 @@ Mobile
 
 ### What I learned
 
-`box-sizing: border-box`: After resizing the QR code image there was an empty space to the right of the image. After some inspection without result, I remembered there's about `border-box` and after a quick google search I was able to remove the white space using `box-sizing: border-box` to include the padding in the calculation of the width and height of the card element. To ensure all elments get the right width and height I used:
+- `box-sizing: border-box`: After resizing the QR code image there was an empty space to the right of the image. After some inspection without result, I remembered there's about `border-box` and after a quick google search I was able to remove the white space using `box-sizing: border-box` to include the padding in the calculation of the width and height of the card element. To ensure all elments get the right width and height I used:
 
 ```css
 * {
   box-sizing: border-box;
 }
 ```
+
+- The usage of logical properties (e.g., inline-start instead of left) to support different reading directions and improving internationalization.
+- Calculating `rem` values using this formula `rem = px/16 \* 1rem, as 1rem = 16px
+- Using hsl value for a more accurate color representation.
 
 ## Author
 

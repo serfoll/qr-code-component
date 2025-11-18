@@ -1,7 +1,5 @@
 /** @format */
 :root {
-  font-size: 100%;
-
   /*typography*/
   --font-size-body: calc(15 / 16 * 1rem);
   --font-size-extra: calc(13 / 16 * 1rem);
@@ -14,9 +12,10 @@
   /*colors*/
   --slate-900: hsl(218deg 44% 22%);
   --slate-500: hsl(216deg 15% 48%);
-  --slate-400: hsl(228deg 45% 44%);
   --slate-300: hsl(212deg 45% 89%);
-  --slate-100: hsl(0deg 0% 100%);
+
+  --blue: hsl(228deg 45% 44%);
+  --white: hsl(0deg 0% 100%);
 
   /*spacing*/
   --spacing-500: 40px;
@@ -53,9 +52,9 @@ main {
 }
 
 .card {
-  background-color: var(--slate-100);
+  background-color: var(--white);
   border-radius: 20px;
-  max-height: 499px;
+  max-height: calc(499 / 16 * 1rem);
   padding: var(--spacing-200);
   padding-block-end: var(--spacing-500);
   max-width: 320px;
@@ -98,7 +97,7 @@ footer {
 
 .attribution a,
 .attribution a:visited {
-  color: var(--slate-400);
+  color: var(--blue);
 }
 
 .attribution a:hover,
